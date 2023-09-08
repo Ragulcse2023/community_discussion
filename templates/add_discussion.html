@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Discussion</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Create New Discussion</h2>
+        <form method="POST" action="/add_discussion">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="content">Content:</label>
+            <textarea id="content" name="content" required></textarea>
+            <button type="submit">Create Discussion</button>
+        </form>
+        <a href="/">Back to Dashboard</a>
+    </div>
+</body>
+</html>

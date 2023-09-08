@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a237e; /* Deep blue background color */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border: 1px solid #1a237e; /* Deep blue border color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1a237e; /* Deep blue header text color */
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #26a69a; /* Teal border color */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+}
+
+button {
+    background-color: #ffa07a; /* Light orange button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6f61; /* Coral on hover */
+}
+
+.messages {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.messages li {
+    color: red;
+}
+
+.discussions {
+    list-style-type: none;
+    padding: 0;
+}
+
+.discussions li {
+    border: 1px solid #26a69a; /* Teal border color */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+}
+
+a {
+    text-decoration: none;
+    color: #ffa07a; /* Light orange link color */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff6f61; /* Coral on hover */
+}
